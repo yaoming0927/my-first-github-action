@@ -17,6 +17,7 @@ jobs:
         run: echo 'test'
   build:
     runs-on: "ubbuntu-latest"
+    runs-on: "ubuntu-latest"
     need: test
     steps:
       - name: step name
